@@ -1,0 +1,13 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(function (toggle) {
+      toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(toggle.getAttribute('href'));
+        if (target) {
+          target.classList.toggle('collapse');
+        }
+      });
+    });
+  });
+</script>
