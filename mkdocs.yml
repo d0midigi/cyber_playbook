@@ -1,15 +1,15 @@
 # Project information
 site_name: 'Cyber Playbook'
 site_description: 'Playbooks are used by cybersecurity professionals to store or encapsulate knowledge on cybersecurity topics and tactics.'
-site_author: 'Randy Rowland'
-site_url: 'https://rowland007.github.io/Cyber-Playbook/'
+site_author: 'mindhackdiva'
+site_url: 'https://d0midigi.github.io/Cyber_Playbook/'
 
 # Repository
-repo_name: 'Randy Rowland'
-repo_url: 'https://github.com/rowland007/'
+repo_name: 'cyber-playbook'
+repo_url: 'https://github.com/d0midigi/'
 
 # Copyright
-copyright: 'Copyright &copy; 2021-2024 Randall Rowland<br>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+copyright: 'Copyright &copy; 2004-2024 hackh3rway like mindhackdiva<br>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 
 # Navigation Menu
 nav:
@@ -50,7 +50,7 @@ nav:
         'The Six Dumbest Ideas in Computer Security': 'societal/six-dumb-ideas.md'
     - Software Security:
         'Overview': 'software/index.md'
-        'OWASP Top 10 Proactive Controls': 'software/owasp-top-ten-pro-cntrls.md'
+        'OWASP Top 10 Proactive Controls': 'software/owasp-top10-controls.md'
         'Supply Chain Levels for Software Artifacts': 'software/slsa.md'
     - System Security:
         'Overview': 'system/index.md'
@@ -82,8 +82,8 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Poppins
+    code: Consolas
   icon:
     admonition:
       cite: octicons/link-external-16
@@ -93,13 +93,11 @@ theme:
 extra:
   social:
     - icon: material/cloud
-      link: https://randyrowland.me
+      link: https://3.me
     - icon: fontawesome/brands/github
-      link: https://github.com/rowland007
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/randall-rowland-jr
+      link: https://github.com/d0midigi
     - icon: fontawesome/brands/reddit-alien
-      link: https://www.reddit.com/user/rowland007
+      link: https://www.reddit.com/user/#
 
 # Extensions
 markdown_extensions:
